@@ -32,7 +32,7 @@ export default function ProfileFormPage() {
     setMessage("");
 
     try {
-      const response = await fetch("https://constructioncourse.co.uk/api/profile", {
+      const response = await fetch("http://localhost:8000/api/profile", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
